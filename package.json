@@ -1,0 +1,22 @@
+{
+  "name": "05-simple-web-server",
+  "version": "0.0.1",
+  "description": "node.js http server",
+  "main": "index.js",
+  "scripts": {
+    "dev_text": "nodemon   http-text.js",
+    "start_text": " cross-env  node ./http-text.js"
+  },
+  "keywords": [],
+  "author": "timothy",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+
+    "nodemon": "^3.1.10"
+  }
+}
